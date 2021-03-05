@@ -1,11 +1,11 @@
 import sys
 
 teks = "{} = {} * {} + {}"
-def gcd(a,b):  
+def gcd(a,b):
   print(teks.format(a,b,a//b,a%b))
-  if(a%b == 0): 
-    print("\ngcd: ",a) 
-    return 
+  if(a%b == 0):
+    print("\ngcd: ",b) 
+    return
   else: return gcd(b, a%b)
 
 a = sys.argv[1]

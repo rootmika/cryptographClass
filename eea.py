@@ -28,8 +28,8 @@ while (b3!=0 and b3!=1):
     b3 = t3
     print(teks.format(q,a1,a2,a3,b1,b2,b3))
 if(b3 == 1):
-    print("gcd({},{}) = {}".format(a,b,b3))
+    print("\ngcd({},{}) = {}".format(a,b,b3))
     print("inverse = {} mod {} = {}".format(b2,a,b2%a))
 else:
-    print("gcd({},{}) = {}".format(a,b,a3))
+    print("\ngcd({},{}) = {}".format(a,b,a3))
     print("inverse = {}".format("None"))
